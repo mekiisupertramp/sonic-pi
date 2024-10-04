@@ -9,5 +9,5 @@ More infos here: https://mekiisupertramp.github.io/essays/sonic-pi.html
 
 
 <p align="center">
-<img class="img-fluid" src="sonic-pi"> 
+<img class="img-fluid" src="sonicpi.png"> 
 </p>
