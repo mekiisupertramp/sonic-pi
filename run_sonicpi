@@ -1,0 +1,6 @@
+#!/bin/sh
+cmd="sonic-pi"
+$cmd &	  #startup sonic pi
+sleep 120 #wait the startup of sonic pi (yes, very fast...)
+cat /home/pi/Desktop/guido.txt | sonic_pi 	#send the script content to sonic pi 
+python3 /home/pi/Desktop/gpios_to_sonic.py  #start the GPIOS script

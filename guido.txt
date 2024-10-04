@@ -1,0 +1,15 @@
+#!/usr/bin/ruby -w
+
+
+live_loop :foo do
+  
+	set_sched_ahead_time! 0
+  
+	use_real_time
+  a, b, c = sync "/osc/trigger/propjet"
+  
+	use_synth :piano
+  
+	play note: a, amp: b
+
+end

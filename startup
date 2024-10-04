@@ -1,0 +1,7 @@
+pi@raspberrypi:/ $ cat etc/xdg/lxsession/LXDE-pi/autostart 
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@point-rpi
+@lxterminal -e /home/pi/Desktop/run_sonicpi
+@lxterminal -e /home/pi/Desktop/test
